@@ -194,6 +194,15 @@ function App() {
                 aboutUrl: 'https://www.nestwallet.xyz',
                 jsBridgeKey: 'nestwallet',
                 platforms: ['chrome']
+              },
+              { 
+                appName: "echoooTonWallet",
+                name: "EchoooWallet",
+                imageUrl: "https://cdn.echooo.xyz/front-end/fw/2025-01-20/f27b7b41-66b4-4b5d-b3d4-a3ac1d8b34ba.png",
+                aboutUrl: "https://www.echooo.xyz",
+                universalLink: "https://www.echooo.xyz",
+                bridgeUrl: "https://bridge.tonapi.io/bridge",
+                platforms: ["ios", "android", "macos", "windows", "linux"]
               }
             ]
           }}
@@ -204,8 +213,6 @@ function App() {
         <div className="app">
             <Header />
             <TxForm />
-            <CreateJettonDemo />
-            <TonProofDemo />
             <Footer />
         </div>
       </TonConnectUIProvider>
